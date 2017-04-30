@@ -1,0 +1,26 @@
+{
+  "name": "node-auth",
+  "version": "1.0.0",
+  "description": "Simple Node.js authentification for API routes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deckey/node-auth.git"
+  },
+  "author": "Dejan Ivanovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deckey/node-auth/issues"
+  },
+  "homepage": "https://github.com/deckey/node-auth#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.6",
+    "morgan": "^1.8.1"
+  }
+}
