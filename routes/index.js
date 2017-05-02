@@ -13,7 +13,7 @@ app.post('/create', function (req, res) {
 function createUser(req, res) {
   var newUser = new User({
     name: req.body.name,
-    password: req.body.pass,
+    password: req.body.password,
     admin: req.body.admin
   })
   User.findOne({ name: req.body.name }, function (err, user) {
